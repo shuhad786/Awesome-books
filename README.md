@@ -5,7 +5,7 @@
 
 ## Built With
 
-- Html, js.
+- Html, Js, Css.
 - Linters.
 
 ## Authors
