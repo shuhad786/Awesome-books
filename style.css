@@ -4,6 +4,7 @@
   font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
 }
+
 .headings {
   font-size: 1.5rem;
   text-align: center;
@@ -28,20 +29,21 @@
 }
 
 .bgGray {
-  background-color: #CCC;
+  background-color: #ccc;
 }
 
-.container{
+.container {
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:3px;
+  margin-bottom: 3px;
 }
-hr{
+
+hr {
   width: 50%;
-  margin-top:25px;
+  margin-top: 25px;
 }
 
 #form {
@@ -51,8 +53,7 @@ hr{
 }
 
 .button {
-
   width: 15%;
   margin-left: auto;
-  box-shadow:5px 5px #000;
+  box-shadow: 5px 5px #000;
 }
