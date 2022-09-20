@@ -1,7 +1,9 @@
+/* eslint-disable max-classes-per-file */
+
 const form = document.getElementById('form');
 const inputTitle = document.getElementById('title');
 const inputAuthor = document.getElementById('author');
-const displayList = document.getElementById('bookinfo');
+const bookinfo = document.getElementById('bookInfo');
 let btnList = [];
 
 class BookTemplate {
@@ -25,10 +27,10 @@ class BookList {
   }
 
   displayBookList() {
-    if(localStorage.getItem('BookLibrary') !== null) {
+    if (localStorage.getItem('BookLibrary') !== null) {
       this.bookArray = JSON.parse(localStorage.getItem('BookLibrary'));
     }
-    displayList.innerText = '';
+    bookinfo.innerText = '';
     this.bookArray.forEach((item) => {
       const container = document.createElement('div');
       container.classList = 'dFlex container';
@@ -47,7 +49,7 @@ class BookList {
       remove.innerText = 'Remove!';
       p.append(titleHtml, by, authorHtml);
       container.append(p, remove);
-      displayList.append(container);
+      bookinfo.append(container);
     });
     btnList = Array.from(document.querySelectorAll('button'));
   }
