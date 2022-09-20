@@ -51,4 +51,4 @@ form.addEventListener('submit', (event) => {
   displayBooks();
 });
 
-displayBooks();
+// displayBooks();
