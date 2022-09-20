@@ -16,6 +16,11 @@
 - Twitter: [@leribagandrade](https://twitter.com/leribagandrade)
 - LinkedIn: [Gabriel-Andrade](https://www.linkedin.com/in/gabriel-andrade-silla-turca/)
 
+👤 **Shuhad Loofer**
+
+- GitHub: [@Shuhad786](https://github.com/Shuhad786) 
+- LinkedIn: [shuhad-loofer](www.linkedin.com/in/shuhad-loofer)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
