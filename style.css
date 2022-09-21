@@ -1,6 +1,24 @@
 * {
   font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 10px;
+
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayBlock {
+  display: block;
 }
 
 #list-link:hover {
@@ -86,13 +104,6 @@
   background-color: #ccc;
 }
 
-#footer {
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 100px;
-}
-
 .text-center {
   text-align: center;
   font-size: 1rem;
@@ -108,9 +119,8 @@
   margin-bottom: 3px;
 }
 
-hr {
-  width: 50%;
-  margin-top: 25px;
+#footer {
+  margin-bottom: 20px;
 }
 
 #form {
@@ -120,7 +130,6 @@ hr {
 }
 
 .button {
-  padding: auto;
   margin-left: auto;
   box-shadow: 5px 5px #000;
   border-radius: 5px;

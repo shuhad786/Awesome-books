@@ -6,20 +6,19 @@ const addLink = document.getElementById('addLink');
 const contactLink = document.getElementById('contactLink');
 
 contactLink.addEventListener('click', () => {
-  addPage.style.display = 'none';
-  listPage.style.display = 'none';
-  contactPage.style.display = 'block';
+  addPage.classList = 'displayNone';
+  listPage.classList = 'displayNone';
+  contactPage.classList = 'displayBlock';
 });
 
 listLink.addEventListener('click', () => {
-  addPage.style.display = 'none';
-  contactPage.style.display = 'none';
-  listPage.style.display = 'block';
+  addPage.classList = 'displayNone';
+  listPage.classList = 'displayBlock';
+  contactPage.classList = 'displayNone';
 });
 
 addLink.addEventListener('click', () => {
-  contactPage.style.display = 'none';
-  listPage.style.display = 'none';
-  addPage.style.display = 'block';
+  addPage.classList = 'displayBlock';
+  listPage.classList = 'displayNone';
+  contactPage.classList = 'displayNone';
 });
-
