@@ -10,7 +10,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   margin: 10px 10px;
-
 }
 
 .displayNone {
@@ -131,6 +130,8 @@ body {
 
 .button {
   margin-left: auto;
+  padding-left: 10px;
+  padding-right:10px;
   box-shadow: 5px 5px #000;
   border-radius: 5px;
 }
