@@ -33,7 +33,7 @@ class BookList {
     bookinfo.innerText = '';
     this.bookArray.forEach((item) => {
       const container = document.createElement('div');
-      container.classList = 'dFlex container';
+      container.classList = 'dFlex container paddingStart';
       if (this.bookArray.indexOf(item) % 2 === 0) {
         container.classList.add('bgGray');
       }
