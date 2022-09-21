@@ -22,7 +22,7 @@ const timeAMPM = today.toLocaleTimeString('en-US', {
   hour: 'numeric',
   minute: 'numeric',
   second: 'numeric',
-  hour12: true
+  hour12: true,
 });
 
 date.innerText = `${months[mm]} ${dd}th ${yyyy}, ${timeAMPM}`;
